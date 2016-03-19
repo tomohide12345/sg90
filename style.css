@@ -5,14 +5,14 @@
 
 
 input[type="button"] {
-    width: 120px;
+    width: 140px;
 }
 
 input[type="range"] {
     -webkit-appearance: none;
     outline: none;
-    width: 250px;
-    height: 30px;
+    width: 280px;
+    height: 35px;
     border-radius: 15px;
     border: 10;
     cursor: pointer;
@@ -22,8 +22,8 @@ input[type="range"] {
 
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     background: #E74C3C;
 }
