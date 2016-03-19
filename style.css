@@ -1,6 +1,5 @@
 .content{
     position: relative;
-    /*height: 700px*/
 }
 
 
@@ -12,7 +11,7 @@ input[type="range"] {
     -webkit-appearance: none;
     outline: none;
     width: 280px;
-    height: 35px;
+    height: 40px;
     border-radius: 15px;
     border: 10;
     cursor: pointer;
@@ -22,8 +21,8 @@ input[type="range"] {
 
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
     background: #E74C3C;
 }
