@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>sg90</title>
+    <script src="//konashi.ux-xu.com/kjs/konashi-bridge.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="sg90.js"></script>
+</head>
+
+<body>
+    <header class="bar-title">
+        <h1 class="title">konashi.js: pwm sg90</h1>
+    </header>
+    <div class="content">
+        <input type="button" id="find" value="find Konashi" onClick="findKonashi()">
+        <span id="konashistate">disconnect</span>
+        <br>
+        <input type="range" class="pwmslider" id="range01" value="0" min="-90" max="90">
+        <span class="showRange" id="showrange01">0</span>
+    </div>
+</body>
+<html>
